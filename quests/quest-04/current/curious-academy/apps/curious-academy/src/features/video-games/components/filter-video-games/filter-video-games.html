@@ -1,0 +1,19 @@
+<!--@let people = people$ | async;  // subscribe cache ici , donc appel de l'api une seule fois, et pas à chaque changement de valeur du select-->
+@let people = people$$(); // ici on appele le signal, donc on ne fait pas de subscribe, et donc pas d'appel de l'api à chaque changement de valeur du select
+  <!-- <p>Nombre de personnes : {{people?.results?.length}}</p>
+  
+     <select>
+      @for ( person of people?.results; track person.uid) {
+        <option value="{{person.uid}}">{{person.name}}</option>
+      }
+    </select>-->
+
+    <!-- apres utilisation de map -->
+
+    <p>Nombre de personnes : {{people?.length}}</p>
+    <select>
+      @for ( person of people; track person.id) {
+        <option value="{{person.id}}">{{person.surname}}</option>
+      }
+    </select>
+

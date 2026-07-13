@@ -1,0 +1,27 @@
+
+<h2>{{ title() }}</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(item of items(); track item.label) {
+      <tr>
+        <td>{{ item.label }}</td>
+        <td>{{ item.year }}</td>
+        <td>
+          <button (click)="clickToRemoveSpecific(item)">Remove Video Game</button>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+  
+     
+
+
