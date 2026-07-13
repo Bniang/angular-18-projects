@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2025",
+    "allowJs": true,
+    "outDir": "../../dist/out-tsc",
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "sourceMap": false,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "cypress.config.ts",
+    "**/*.cy.ts",
+    "**/*.cy.js",
+    "**/*.d.ts"
+  ]
+}

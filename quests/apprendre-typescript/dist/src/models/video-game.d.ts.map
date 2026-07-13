@@ -1,0 +1,1 @@
+{"version":3,"file":"video-game.d.ts","sourceRoot":"","sources":["../../../src/models/video-game.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS;IAElB,MAAM,EAAE,MAAM,CAAC;gBAEH,KAAK,EAAC,MAAM;IAIxB,IAAI,KAAK,IAAI,MAAM,CAElB;IAED,IAAI,KAAK,CAAC,KAAK,EAAE,MAAM,EAKtB;CACJ"}

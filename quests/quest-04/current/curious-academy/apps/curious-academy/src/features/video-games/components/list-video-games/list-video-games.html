@@ -1,0 +1,18 @@
+
+
+@if(videoGames.length === 0) {
+<p>aucun jeu video !</p>
+}
+
+@if(videoGames.length > 0) {
+<app-filter-video-games ></app-filter-video-games>
+
+<app-table-video-games [title]="childTitle"
+ [items]="videoGames"
+ (askToRemoveVideoGameSpecific)="toRemoveVideoGameSpecific($event)"
+ ></app-table-video-games>
+
+ <app-add-videogame></app-add-videogame>   
+
+ <!-- (askToRemoveVideoGame)="toRemoveVideoGame($event)"  -->
+}

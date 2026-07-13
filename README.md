@@ -1,7 +1,6 @@
 # angular-18-projects
 créer un project en angualr 18+
 
-
 command npm 
 
 install d'abord nvm sur windows
@@ -26,3 +25,21 @@ en creant un dossier vide
 "npm run tsc" ( ou n'import quel nom bass, test, start) pour lancer typescript
 
 npm run tsc -- --init pour créer le fichier tsconfig.json pour la configuration de typescript
+
+
+créer un nouveau projet Angular avec la commande npx
+
+on peut le faire directement depuis le site npx( comme npm dans node) qui permet decreer de projet "MICRO FRONTEND"
+
+lance la commande npx create-nx-workspace@lastest --preset=angular "pour mettre le template dedie pour angular"
+
+suivant les instruction  
+--nom du package dßabord regroupant tous les appli,
+-- TYPE DE REPO monolitic
+--choisit ton 1er nom de appli
+--CI provider github
+--css
+
+---> creer un nouveau app avec cet comande npx nx g @ng/angular:app "nom-app"
+
+--->ajouter un nouveau composant "npx nx g c \features\video-games\components\add-videogame"

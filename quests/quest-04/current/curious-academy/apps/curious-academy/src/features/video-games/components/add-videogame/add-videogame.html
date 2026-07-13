@@ -1,0 +1,13 @@
+<h1>Add Video Game</h1>
+    
+    <form #videogameForm="ngForm" (ngSubmit)="save()">
+     
+        <label for="label">Label:</label>
+        <input type="text" id="label" name="label" [(ngModel)]="videogame.label" required>
+      
+      
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" [(ngModel)]="videogame.year" required>   
+      
+      <button type="submit" [disabled]="!videogameForm.form.valid">Add Video Game</button>
+    </form>
