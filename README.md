@@ -40,6 +40,16 @@ suivant les instruction
 --CI provider github
 --css
 
----> creer un nouveau app avec cet comande npx nx g @ng/angular:app "nom-app"
+---> creer un nouveau app avec cet commande npx nx g @ng/angular:app "nom-app"
 
 --->ajouter un nouveau composant "npx nx g c \features\video-games\components\add-videogame"
+
+On a regroupe les quests 5,6,7 dans le quest-4
+
+-- maintenant on travaille pour le quest-8
+
+on a besoin de rendre plus beau notre aplication en installant bootstrap
+
+lancons la commande npx nx add @ng-bootstrap/ng-bootstrap
+
+--> npm cache clean --force
