@@ -23,6 +23,7 @@
           }
         ],
         "styles": [
+          "apps/curious-academy/src/material-theme.scss",
           "apps/curious-academy/src/styles.css"
         ]
       },

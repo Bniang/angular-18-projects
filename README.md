@@ -43,3 +43,9 @@ suivant les instruction
 ---> creer un nouveau app avec cet comande npx nx g @ng/angular:app "nom-app"
 
 --->ajouter un nouveau composant "npx nx g c \features\video-games\components\add-videogame"
+
+------installer angular material 
+
+"npm install @angular/material @angular/cdk @angular/animations"
+
+npx nx g @angular/material:ng-add
