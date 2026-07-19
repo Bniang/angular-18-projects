@@ -23,6 +23,7 @@
           }
         ],
         "styles": [
+          "node_modules/bootstrap/dist/css/bootstrap.min.css",
           "apps/curious-academy/src/material-theme.scss",
           "apps/curious-academy/src/styles.css"
         ]
